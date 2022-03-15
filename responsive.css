@@ -1,0 +1,35 @@
+@media (max-width:670px) {
+
+    #pricing .box-pricings {
+        display: flex;
+        flex-direction: column;
+        padding-bottom:50px;
+    }
+
+    #pricing .box {
+        width: 90%;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+    #pricing .std {
+        height: 300px !important;
+        
+    }
+
+}
+
+@media (max-width:1000px) {
+    #pricing .std {
+        height: 370px;
+        
+    }
+
+    #pricing .box .btn-more, .btn-special {
+        font-size: 10px;
+    }
+
+    #pricing .box .list-fitur li {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,137 @@
+@import url('http://fonts.cdnfonts.com/css/montserrat');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+/* a {
+    text-decoration: none;
+    color: #fff;
+} */
+.container   {
+    padding: 0 15px;
+    margin: 0 auto;
+}
+#pricing {
+    width: 100%;
+    background-color: #F6E7D8;
+}
+
+#pricing h2 {
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom:5px;
+    color: #874356;
+}
+
+#pricing .box-pricings {
+    display: flex;
+    justify-content: center;
+}
+
+#pricing h2:after {
+    height: 2px;
+    display: block;
+    width: 50%;
+    background: #874356;
+    border-right: 1px white;
+    content: '';
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10px;
+}
+
+#pricing .box {
+    border: 3px solid #fff;
+    border-radius: 20px;
+    margin: 50px 20px;
+    padding:20px 30px 20px 30px;
+    height: auto;
+    position: relative;
+}
+
+#pricing .std {
+    height: 320px;
+    
+}
+
+
+#pricing .box p {
+    text-align:center;
+    color: #874356;
+}
+
+#pricing .box h1 {
+    text-align:center;
+    padding: 10px 0 ;
+    font-size: 40px;
+    color:#874356;
+    
+}
+
+#pricing .special {
+    background-color: #874356;
+}
+
+#pricing .box .special {
+    color:#F6E7D8  !important ;
+}
+
+#pricing .box .list-fitur li {
+    list-style: none;
+    /* border: 1px solid #000; */
+    padding: 5px 0;
+    color: #874356;
+    margin-left:-30px;
+    left: 0;
+}
+
+#pricing .box .list-fitur li span {
+    font-weight: bold;
+}
+
+#pricing .box .btn-more {
+    padding: 10px 30px 10px 30px;
+    width: 100%;
+    display: block;
+    margin-top:20px;
+    background-color: #874356;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: .5s;
+    margin-bottom:10px;
+}
+
+#pricing .box .btn-special {
+    padding: 10px 30px 10px 30px;
+    width: 100%;
+    display: block;
+    margin-top:20px;
+    background-color: #F6E7D8;
+    color: #874356;
+    text-align: center;
+    text-decoration: none;
+    transition: .5s;
+    border-radius: 20px;
+}
+
+#pricing .box .btn-more:hover {
+    background-color: #F6E7D8;
+    color: #874356;
+    border: 1px solid #874356;
+}
+
+#pricing .box .btn-special:hover {
+    background-color: #874356;
+    color: #F6E7D8;
+    border: 1px solid #F6E7D8;
+}
+
+
